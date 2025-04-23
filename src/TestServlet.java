@@ -30,7 +30,7 @@ public class TestServlet extends HttpServlet {
 
 	PrintWriter out = response.getWriter();
 
-	out.println("<html><head></head><body><br>"+username+password+"</body></html>");
+	out.println("<html><head></head><body><br>"+username+"<br>"+password+"</body></html>");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
